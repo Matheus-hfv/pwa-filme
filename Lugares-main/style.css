@@ -1,0 +1,184 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    overflow: hidden;
+}
+
+header{
+    
+   
+}
+
+#saiba{
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+   
+}
+ul{
+    
+    list-style: none;
+    display: flex;
+}
+li{
+    display: inline-block;
+}
+
+.container{
+    
+    text-align: center;
+    padding: 12px;
+    color: white;display: inline-block;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.formContainer{
+    max-width: 230px;
+    background-color: #585757bb;
+    float: right;
+    padding: 30px;
+    flex-wrap: wrap;
+    margin-top: 80px;
+    margin-right: 30px;
+    border-radius: 10px;
+    height: 300px;
+    margin-bottom: 20px;
+    
+    
+}
+
+.btn{
+    padding:0 0 10px;
+}
+
+section{
+    background-image: linear-gradient(rgba(0,0,0,0.75) , rgba(0,0,0,0.60)), url('./imagens/53-regiao-glenbrook-caminho-de-pukaki-1024x576.jpg');
+    background-size: cover;
+    overflow-x: hidden;background-position: center;
+    height: 94vh;
+    
+    
+    object-fit: cover;
+    
+    
+    
+    
+}
+
+.inp{
+    padding: 7px;
+    width: 100%;
+    border-radius: 10px;
+    border: none;
+    margin-bottom: 8px;
+
+
+}
+
+.conteudo{
+    display: inline-block;
+    
+    
+    max-width: 600px;
+    transform: translate(100px,-100px);
+    margin-left: 50px;
+    color: white;
+    margin-right: 100px;
+    
+}
+
+.conjunto{
+    margin-bottom: 10px;
+}
+
+
+
+button{
+    padding: 8px;
+    border-radius: 10px;
+    text-decoration: none;
+}
+button:hover{
+    background-color: black;
+    color: white;
+}
+
+.byn{
+    list-style: none;
+}
+.byn a{
+    text-decoration: none;
+    color: black;
+}
+
+.byn:hover{
+    background-color: black;
+    
+}
+
+.byn a:hover{
+    color: white;
+}
+
+.cadastro{
+    margin-top: 10px;
+    padding: 8px;
+}
+.container ul li{
+    display: inline;
+    position: relative;
+    text-align: center;
+    width: 150px;
+    
+}
+
+.container ul ul{
+    display: none;
+    left: 0;
+    position: absolute;
+}
+
+.container ul li:hover ul{
+    display: block;
+}
+
+.container ul ul{
+    width: 150px;
+    text-align: center;
+    z-index: 1000;
+    
+    
+}
+
+.container ul ul li a{
+    display: block;
+    padding: 5px;
+    background-color: black;
+    color: white;
+    list-style: none;text-decoration: none;
+    
+}
+
+.container ul ul li a:hover{
+    background-color: rgb(27, 24, 24);
+}
+
+#video{
+    transform: translate(100px,100px);
+    display: inline-block;
+}
+
+@media screen and (max-width: 1371px) {
+    .conteudo{
+        transform: translate(50px,100px);
+    }
+  }
